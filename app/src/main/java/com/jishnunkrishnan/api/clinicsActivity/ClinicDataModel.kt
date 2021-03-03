@@ -7,18 +7,18 @@ data class ClinicDataModel(
 )
 
 data class ServiceInfoItem(
-	val serviceId: String? = null,
+	val service_id: String? = null,
 	val name: String? = null
 )
 
 data class ClinicsItem(
 	val image: String? = null,
-	val jsonMember24hour: String? = null,
+	val a24hour: String? = null,
 	val name: String? = null,
 	val rating: String? = null,
-	val serviceInfo: List<ServiceInfoItem?>? = null,
+	val service_info: List<ServiceInfoItem?>? = null,
 	val location: String? = null,
 	val favourite: String? = null,
-	val clinicId: String? = null
+	val clinic_id: String? = null
 )
 
